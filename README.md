@@ -1,5 +1,5 @@
 # descpipe-cwl
-Proof of concept CWL-based pipeline with Docker abstraction.
+Proof of concept CWL-based pipeline with Docker abstraction. [not actually completely functional yet]
 
 Uses tools from companion repo: https://github.com/EiffL/treecorr_tools
 
