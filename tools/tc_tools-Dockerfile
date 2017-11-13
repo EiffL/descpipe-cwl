@@ -14,3 +14,6 @@ RUN yum install -y libffi-devel
 RUN bash -lc "pip install TreeCorr"
 RUN bash -lc "pip install twopoint"
 RUN bash -lc "pip install git+git://github.com/EiffL/treecorr_tools.git"
+
+USER vagrant
+ENV PATH=/opt/lsst/software/stack/eups/2.1.4/bin:/opt/lsst/software/stack/python/miniconda3-4.2.12/bin:$PATH

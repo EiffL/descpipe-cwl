@@ -1,9 +1,16 @@
+# wget
+# photoz_url: https://portal.nersc.gov/projecta/lsst/wl/des-sv-annz-pipetest.fits
+# photoz_filename: des-sv-annz-pipetest.fits
 photoz_catalog:
   class: File
   path: des-sv-annz-pipetest.fits
+
+# tomography
 bin_column: Z_MEAN
 zmin: 0.2
 zmax: 1.2
 nbin: 3
 tomo_filename: tomo.fits
+
+# pz_stack
 nz_filename: nz.fits
