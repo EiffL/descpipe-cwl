@@ -1,5 +1,5 @@
 class: DockerRequirement
 dockerPull: eiffl/tc_tools:v0.1
-#dockerImageId: scidap/samtools:v1.2-242-4d56437 #not yet ready
+#dockerImageId: eiffl/tc_tools:v0.1 #not yet ready
 dockerFile: >
   $import: tc_tools-Dockerfile

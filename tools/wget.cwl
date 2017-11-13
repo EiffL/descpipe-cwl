@@ -11,7 +11,7 @@ inputs:
     type: string
     inputBinding:
       position: 1
-      prefix: -o
+      prefix: -O
 
   url:
     type: string
@@ -24,4 +24,3 @@ outputs:
     type: File
     outputBinding:
       glob: $(inputs.output_name)
-      
