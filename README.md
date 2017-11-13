@@ -16,3 +16,4 @@ Running the workflow is as simple as:
 ```
 $ cwltool workflows/test_workflow.cwl workflows/test.yml
 ```
+This will pull the Docker image for the python tools, download the test dataset from the internet and execute the python scripts of each stage of the pipeline.
